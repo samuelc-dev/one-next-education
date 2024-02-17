@@ -3,10 +3,20 @@
     padding: 0;
 }
 body{
+    height: 100vh;
+    /* mantem o conteúdo dentro da tag pai */
+    box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
 }
 
 .titulo-destaque{
     color: #22D4FD;
+}
+
+.apresentacao {
+    /* deixa todo mundo em linha */
+    display: flex;
+    /* trazendo conteudos para o centro ao propio alinhamento deles */
+    align-items: center;
 }
